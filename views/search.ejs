@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<form class="form-inline" action="/searchMovie" method="post">
+				<div class="form-group">
+					<label>Search for a movie</label>
+					<input type="text" class="form-control" name="movieSearch" id="movie-search">
+				</div>
+				<div class="form-group">
+					<label>Search for actors</label>
+					<input type="text" class="form-control" name="actorSearch" id="actor-search">
+				</div>
+				<input type="submit" class="btn btn-success" value="Search!">
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
